@@ -1,0 +1,1 @@
+Exec=/bin/bash -c "sleep 10; flameshot &"

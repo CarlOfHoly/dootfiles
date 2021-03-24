@@ -1,0 +1,10 @@
+[alias]
+st = status
+lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(white)- %an%C(reset)' --all 
+	co = checkout
+	cob = checkout -b
+[user]
+	email = carl.smestad@gmail.com
+	name = carlofholy
+[pull]
+	rebase = true
